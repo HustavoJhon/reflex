@@ -3,5 +3,10 @@
 }
 
 .content_about_text {
+    max-width: 45ch;
+    overflow-wrap: break-word;
+    white-space: pre-line;
     font-style: italic;
+    margin: 0 auto;
+    text-align: center;
 }
