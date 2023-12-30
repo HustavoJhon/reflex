@@ -1,41 +1,41 @@
 * {
-    background: #e0dfda
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
+
+body {
+    background: #e0dfda;
+    text-align: center;
+}
+
 h2 {
     font-size: 17px;
     text-align: center;
 }
+
 .art_ascii {
     font-size: 15px;
     color: #b16286;
 }
 
-.content_about_text {
-    max-width: 42ch;
+.content_about_text,
+.content_stack_text,
+.content_positions_text {
+    max-width: 33%;
+    margin: 0 auto;
     overflow-wrap: break-word;
     white-space: pre-line;
-    font-style: italic;
-    margin: 0 auto;
-    text-align: center;
     font-size: 15px;
+    text-align: center;
 }
 
 .content_stack_text {
-    max-width: 42ch;
-    overflow-wrap: break-word;
-    white-space: pre-line;
     font-style: normal;
-    margin: 0 auto;
-    text-align: center;
-    font-size: 15px;
 }
 
+.content_about_text,
 .content_positions_text {
-    max-width: 42ch;
-    overflow-wrap: break-word;
-    white-space: pre-line;
     font-style: italic;
-    margin: 0 auto;
-    text-align: center;
-    font-size: 15px;
 }
+
