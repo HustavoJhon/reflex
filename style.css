@@ -5,7 +5,8 @@
 }
 
 body {
-    background: #e0dfda;
+    background: #aaaaaa;
+    /* color: #111111; */
     text-align: center;
 }
 
@@ -17,6 +18,7 @@ h2 {
 .art_ascii {
     font-size: 15px;
     color: #b16286;
+    /* color: #111111; */
 }
 
 .content_about_text,
