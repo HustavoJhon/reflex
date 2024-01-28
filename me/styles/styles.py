@@ -21,6 +21,13 @@ class Size(Enum):
 BASE_STYLE = {
     "font_family": Font.DEFAULT.value,
     "background_color": Color.BACKGROUND.value + "!important", #delete important in future updates
+    
+    rx.heading: {
+        "size": "lg",
+        "color":TextColor.HEADER.value,
+        "font_family": Font.TITLE.value,
+    },
+    
     rx.Button: {
         "width": "100%",
         "height": "100%",
@@ -52,11 +59,13 @@ title_style = dict(
 )
 
 button_tittle_style = dict(
+    font_family=Font.TITLE.value,
     font_size=Size.DEFAULT.value,
     color=TextColor.HEADER.value
 )
 
 button_body_style = dict(
+    font_family=Font.DEFAULT.value,
     font_size=Size.MEDIUM.value,
     color=TextColor.BODY.value
 )
