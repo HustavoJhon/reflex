@@ -54,9 +54,9 @@ def header() -> rx.Component:
                 Soy un programador entusiasta enfocado en mejorar constantemente. 
                 Apasionado por Linux, encuentro en su versatilidad un estímulo para la creatividad. 
                 Mi interés se extiende al diseño gráfico, explorando la unión entre estética y funcionalidad. 
-                Siempre abierto a nuevas oportunidades, busco crecer tanto personal como profesionalmente a través de la innovación y el aprendizaje continuo.
                 """,
                 color=TextColor.BODY.value,
+                font_family="Comfortaa",
             ),
         spacing=Size.BIG.value,
         align_items="start",

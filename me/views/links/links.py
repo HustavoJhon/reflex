@@ -39,6 +39,23 @@ def links() -> rx.Component:
             "https://github.com/hustavojhon"
         ),
 
+        title("Contact"),
+        link_button(
+            "blog", 
+            "aprende linux", 
+            "https://github.com/hustavojhon"
+        ),
+        link_button(
+            "Discord", 
+            "comunidad de Pacman", 
+            "https://github.com/hustavojhon"
+        ),
+        link_button(
+            "Website", 
+            "sobre mi", 
+            "https://github.com/hustavojhon"
+        ),
+
         width="100%",
         spacing=Size.MEDIUM.value,
     )

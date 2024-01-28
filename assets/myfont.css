@@ -1,0 +1,10 @@
+@font-face {
+    font-family: MyFont;
+    src: url("Dank Mono Regular.otf") format("opentype");
+}
+
+@font-face {
+    font-family: MyFont;
+    font-weight: italic;
+    src: url("Dank Mono Italic.otf") format("opentype");
+}
